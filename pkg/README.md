@@ -2,7 +2,7 @@
 
 原始拆分數據來自[天碼](http://www.soongsky.com/sky/download.php)。
 
-本工具提供 [Web demo]()。
+在線使用 [Web demo](https://ksqsf.github.io/) 。Demo 版本可能比較舊，請以本 repo 爲準。
 
 ## 使用方式
 
@@ -76,9 +76,7 @@ $ cargo run -r -q -- pmatch ⿲木.木
 
 ### Web 界面
 
-[Web demo](https://ksqsf.github.io/)
-
-1. 構建 wasm
+1. 構建 wasm，或直接在 Release 頁面下載構建產物
 2. 啓動 web 服務器
    ```bash
    python3 -m http.server 8000
